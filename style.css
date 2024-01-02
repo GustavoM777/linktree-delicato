@@ -16,6 +16,8 @@ ul {
 body {
     background-color: #ff7eb3;
     font: normal 15pt Arial;
+    width: 100%;
+    /* min-height: 100vh; */
 }
 
 header {
@@ -76,9 +78,9 @@ a {
     font-family: 'NexaBold';
     /*OTF é suportado pela maioria dos navegadores mais modernos, menos o internet explorer */
     src: url('/src/webfonts/NexaBold.otf');
-  }
+}
 
-  @media screen and (max-width: 1200px){
-    body{
+@media screen and (max-width: 1200px) {
+    body {
         background-size: auto;
     }
